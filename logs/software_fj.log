@@ -196,3 +196,69 @@
 2026-11-14 16:01:28 | EVENTO | Reserva #17 cancelada.
 2026-11-14 16:01:28 | ERROR  | Cancelación de reserva -> OperacionNoPermitidaError: [ERR-003] No se puede cancelar una reserva en estado CANCELADA.
 2026-11-14 16:01:28 | EVENTO | ===== Fin de la simulación =====
+2026-11-14 16:09:34 | EVENTO | ===== Inicio de la simulación =====
+2026-11-14 16:09:34 | EVENTO | Cliente registrado: Cliente #1: Ana Torres | Doc: *******789 | ana.torres@correo.com
+2026-11-14 16:09:34 | EVENTO | Cliente registrado: Cliente #2: Luis Pérez | Doc: *****123 | luis@empresa.co
+2026-11-14 16:09:34 | ERROR  | Registro de cliente -> DatoInvalidoError: [ERR-001] El correo 'carlos.correo.com' no tiene un formato válido.
+2026-11-14 16:09:34 | ERROR  | Registro de cliente -> ParametroFaltanteError: [ERR-002] El nombre del cliente es obligatorio.
+2026-11-14 16:09:34 | ERROR  | Registro de cliente -> DatoInvalidoError: [ERR-001] El documento 'ABC123' debe ser numérico. | Causa original: ValueError: invalid literal for int() with base 10: 'ABC123'
+2026-11-14 16:09:34 | ERROR  | Registro de cliente -> OperacionNoPermitidaError: [ERR-003] Ya existe un cliente con documento 1032456789.
+2026-11-14 16:09:34 | EVENTO | Servicio creado: Servicio #7: Sala 'Sala de juntas' | 25 personas | $80,000/hora
+2026-11-14 16:09:34 | EVENTO | Servicio creado: Servicio #8: Alquiler 'Portátil' | 3 equipo(s) | $45,000/día
+2026-11-14 16:09:34 | EVENTO | Servicio creado: Servicio #9: Asesoría 'Arquitectura de software' | nivel experto | $120,000/hora
+2026-11-14 16:09:34 | ERROR  | Creación de servicio -> DatoInvalidoError: [ERR-001] La tarifa base debe ser mayor que cero.
+2026-11-14 16:09:34 | ERROR  | Creación de servicio -> DatoInvalidoError: [ERR-001] Nivel 'master' no existe. Use: junior, senior o experto. | Causa original: KeyError: 'master'
+2026-11-14 16:09:34 | EVENTO | Reserva #12 confirmada.
+2026-11-14 16:09:34 | EVENTO | Intento de reserva finalizado.
+2026-11-14 16:09:34 | EVENTO | Reserva #12 procesada. Total: $328,440.00
+2026-11-14 16:09:34 | EVENTO | Fin del intento de procesamiento de la reserva #12.
+2026-11-14 16:09:34 | EVENTO | Reserva #13 confirmada.
+2026-11-14 16:09:34 | EVENTO | Intento de reserva finalizado.
+2026-11-14 16:09:34 | EVENTO | Reserva #13 procesada. Total: $910,885.50
+2026-11-14 16:09:34 | EVENTO | Fin del intento de procesamiento de la reserva #13.
+2026-11-14 16:09:34 | ERROR  | Creación de reserva -> DatoInvalidoError: [ERR-001] Una asesoría dura máximo 8 horas.
+2026-11-14 16:09:34 | EVENTO | Intento de reserva finalizado.
+2026-11-14 16:09:34 | ERROR  | Creación de reserva -> ServicioNoDisponibleError: [ERR-004] El servicio 'Sala de juntas' no está disponible.
+2026-11-14 16:09:34 | EVENTO | Intento de reserva finalizado.
+2026-11-14 16:09:34 | ERROR  | Creación de reserva -> ParametroFaltanteError: [ERR-002] La reserva requiere cliente y servicio.
+2026-11-14 16:09:34 | EVENTO | Intento de reserva finalizado.
+2026-11-14 16:09:34 | EVENTO | Reserva #17 confirmada.
+2026-11-14 16:09:34 | EVENTO | Intento de reserva finalizado.
+2026-11-14 16:09:34 | EVENTO | Fin del intento de procesamiento de la reserva #17.
+2026-11-14 16:09:34 | ERROR  | Procesamiento de reserva -> ReservaInvalidaError: [ERR-005] No se pudo procesar la reserva #17. | Causa original: CalculoInconsistenteError: [ERR-006] Descuento de 150% fuera del rango 0-100.
+2026-11-14 16:09:34 | EVENTO | Reserva #17 cancelada.
+2026-11-14 16:09:34 | ERROR  | Cancelación de reserva -> OperacionNoPermitidaError: [ERR-003] No se puede cancelar una reserva en estado CANCELADA.
+2026-11-14 16:09:34 | EVENTO | ===== Fin de la simulación =====
+2026-11-14 19:01:05 | EVENTO | ===== Inicio de la simulación =====
+2026-11-14 19:01:05 | EVENTO | Cliente registrado: Cliente #1: Ana Torres | Doc: *******789 | ana.torres@correo.com
+2026-11-14 19:01:05 | EVENTO | Cliente registrado: Cliente #2: Luis Pérez | Doc: *****123 | luis@empresa.co
+2026-11-14 19:01:05 | ERROR  | Registro de cliente -> DatoInvalidoError: [ERR-001] El correo 'carlos.correo.com' no tiene un formato válido.
+2026-11-14 19:01:05 | ERROR  | Registro de cliente -> ParametroFaltanteError: [ERR-002] El nombre del cliente es obligatorio.
+2026-11-14 19:01:05 | ERROR  | Registro de cliente -> DatoInvalidoError: [ERR-001] El documento 'ABC123' debe ser numérico. | Causa original: ValueError: invalid literal for int() with base 10: 'ABC123'
+2026-11-14 19:01:05 | ERROR  | Registro de cliente -> OperacionNoPermitidaError: [ERR-003] Ya existe un cliente con documento 1032456789.
+2026-11-14 19:01:05 | EVENTO | Servicio creado: Servicio #7: Sala 'Sala de juntas' | 25 personas | $80,000/hora
+2026-11-14 19:01:05 | EVENTO | Servicio creado: Servicio #8: Alquiler 'Portátil' | 3 equipo(s) | $45,000/día
+2026-11-14 19:01:05 | EVENTO | Servicio creado: Servicio #9: Asesoría 'Arquitectura de software' | nivel experto | $120,000/hora
+2026-11-14 19:01:05 | ERROR  | Creación de servicio -> DatoInvalidoError: [ERR-001] La tarifa base debe ser mayor que cero.
+2026-11-14 19:01:05 | ERROR  | Creación de servicio -> DatoInvalidoError: [ERR-001] Nivel 'master' no existe. Use: junior, senior o experto. | Causa original: KeyError: 'master'
+2026-11-14 19:01:05 | EVENTO | Reserva #12 confirmada.
+2026-11-14 19:01:05 | EVENTO | Intento de reserva finalizado.
+2026-11-14 19:01:05 | EVENTO | Reserva #12 procesada. Total: $328,440.00
+2026-11-14 19:01:05 | EVENTO | Fin del intento de procesamiento de la reserva #12.
+2026-11-14 19:01:05 | EVENTO | Reserva #13 confirmada.
+2026-11-14 19:01:05 | EVENTO | Intento de reserva finalizado.
+2026-11-14 19:01:05 | EVENTO | Reserva #13 procesada. Total: $910,885.50
+2026-11-14 19:01:05 | EVENTO | Fin del intento de procesamiento de la reserva #13.
+2026-11-14 19:01:05 | ERROR  | Creación de reserva -> DatoInvalidoError: [ERR-001] Una asesoría dura máximo 8 horas.
+2026-11-14 19:01:05 | EVENTO | Intento de reserva finalizado.
+2026-11-14 19:01:05 | ERROR  | Creación de reserva -> ServicioNoDisponibleError: [ERR-004] El servicio 'Sala de juntas' no está disponible.
+2026-11-14 19:01:05 | EVENTO | Intento de reserva finalizado.
+2026-11-14 19:01:05 | ERROR  | Creación de reserva -> ParametroFaltanteError: [ERR-002] La reserva requiere cliente y servicio.
+2026-11-14 19:01:05 | EVENTO | Intento de reserva finalizado.
+2026-11-14 19:01:05 | EVENTO | Reserva #17 confirmada.
+2026-11-14 19:01:05 | EVENTO | Intento de reserva finalizado.
+2026-11-14 19:01:05 | EVENTO | Fin del intento de procesamiento de la reserva #17.
+2026-11-14 19:01:05 | ERROR  | Procesamiento de reserva -> ReservaInvalidaError: [ERR-005] No se pudo procesar la reserva #17. | Causa original: CalculoInconsistenteError: [ERR-006] Descuento de 150% fuera del rango 0-100.
+2026-11-14 19:01:05 | EVENTO | Reserva #17 cancelada.
+2026-11-14 19:01:05 | ERROR  | Cancelación de reserva -> OperacionNoPermitidaError: [ERR-003] No se puede cancelar una reserva en estado CANCELADA.
+2026-11-14 19:01:06 | EVENTO | ===== Fin de la simulación =====
