@@ -196,6 +196,7 @@
 2026-11-14 16:01:28 | EVENTO | Reserva #17 cancelada.
 2026-11-14 16:01:28 | ERROR  | Cancelación de reserva -> OperacionNoPermitidaError: [ERR-003] No se puede cancelar una reserva en estado CANCELADA.
 2026-11-14 16:01:28 | EVENTO | ===== Fin de la simulación =====
+<<<<<<< HEAD
 2026-11-14 19:18:15 | EVENTO | ===== Inicio de la simulación =====
 2026-11-14 19:18:15 | EVENTO | Cliente registrado: Cliente #1: Ana Torres | Doc: *******789 | ana.torres@correo.com
 2026-11-14 19:18:15 | EVENTO | Cliente registrado: Cliente #2: Luis Pérez | Doc: *****123 | luis@empresa.co
@@ -262,3 +263,5 @@
 2026-11-14 19:19:03 | EVENTO | Reserva #17 cancelada.
 2026-11-14 19:19:03 | ERROR  | Cancelación de reserva -> OperacionNoPermitidaError: [ERR-003] No se puede cancelar una reserva en estado CANCELADA.
 2026-11-14 19:19:03 | EVENTO | ===== Fin de la simulación =====
+=======
+>>>>>>> a5b6b0784dcf57798e1e061d4e8c44c672a0b5ad
