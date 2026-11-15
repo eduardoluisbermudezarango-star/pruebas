@@ -47,6 +47,4 @@ Al terminar se crea el archivo `logs/software_fj.log` con todos los eventos y er
 | Mínimo 10 operaciones simuladas | 16 operaciones en `main.py` |
 
 ## Integrantes
-
 - Nombre 1: Eduardo Bermudez
--
