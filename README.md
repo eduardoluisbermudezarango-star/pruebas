@@ -49,7 +49,4 @@ Al terminar se crea el archivo `logs/software_fj.log` con todos los eventos y er
 ## Integrantes
 
 - Nombre 1: Eduardo Bermudez
-- Nombre 2  ayudante 1
-- Nombre 3
-- Nombre 4
-- Nombre 5
+-
